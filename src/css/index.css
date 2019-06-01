@@ -1,0 +1,408 @@
+body {
+  font: 400 15px/1.8 Lato, sans-serif;
+  color: #2d2d30;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+h4 {
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+:target {
+  display: block;
+  position: relative;
+  top: -70px; 
+  visibility: hidden;
+}
+
+/* Navbar
+================================= */
+
+.navbar {
+  background-color: rgba(24, 24, 26, 0.781);
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+.navbar .dropdown-menu {
+  text-transform: capitalize;
+}
+
+/* Jumbotron
+================================= */
+
+.jumbotron {
+  background: linear-gradient(#000, transparent 50%),
+              linear-gradient(0deg, #fff, transparent),
+              url(../img/fs-jumbo.jpg) no-repeat center 60px;
+  background-size: cover;
+  color: black;
+  margin-bottom: 4rem;
+}
+
+#jumbo-logo {
+  max-width: 90%;
+  max-height: 80%;
+  padding-top: 7rem;
+  margin-bottom: -3rem;
+}
+
+.social-group img {
+  height: 35px;
+  width: 35px;
+}
+
+.upper-social{
+  margin-top: .25rem;
+}
+
+.social-group a:hover {
+  box-shadow: 0 0 20px black;
+}
+
+.social-group a:nth-child(even) {
+  margin-left: .9rem;
+  margin-right: .9rem;
+}
+
+.social-group a {
+  color: black;
+}
+
+@media (min-width: 576px) {
+
+  #jumbo-logo {
+    padding-top: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  #jumbo-logo {
+    padding-top: 8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  
+  
+  #jumbo-logo {
+    padding-top: 12rem;
+  }
+
+  .upper-social {
+    margin-top: .5rem;
+    margin-right: 3rem;
+  }
+
+  .social-group img {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #jumbo-logo {
+    padding-top: 20rem;
+  }
+
+  .social-group img {
+    height: 45px;
+    width: 45px;
+  }
+}
+
+/* Featured
+================================= */
+
+.instagram {
+  height: 200px;
+}
+
+.youtube iframe {
+  height: 200px;
+}
+
+@media (min-width: 576px) {
+  .youtube iframe {
+    height: 300px;
+  }
+
+  .instagram {
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .youtube iframe {
+    height: 500px;
+  }
+
+  .instagram {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .youtube iframe {
+    height: 700px;
+  }
+  .instagram {
+    height: 700px;
+  }
+}
+
+/* Member bios
+================================= */
+
+.person {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 80%;
+  opacity: 0.9;
+}
+
+.person:hover {
+  box-shadow: 0 0 15px #2d2d30;
+}
+
+.modal-header {
+  background-size: cover;
+  height: 200px;
+}
+
+#jesse-modal{
+  background-image: url(../img/jesse.jpg);
+}
+
+#caio-modal{
+  background-image: url(../img/caio.jpg);
+}
+
+#chad-modal{
+  background-image: url(../img/chad.jpg);
+}
+
+#bass-modal{
+  background-image: url(../img/kieran.jpg);
+}
+
+.modal-body,
+.modal-footer {
+  background-color: #2d2d30;
+  color: white;
+}
+
+.modal-body a {
+  color: white;
+  text-decoration: none;
+  border-bottom: white 1px solid;
+}
+
+.modal-body a:hover {
+  color: #b8b8c5; 
+  text-decoration: none;
+  border-bottom: #b8b8c5 1px solid;
+}
+
+@media (min-width: 768px) {
+  .modal-header {
+    height: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #members{
+    height: 550px;
+    max-width: 95%;
+  }
+}
+
+/* Carousel
+================================= */
+
+.carousel-inner img {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%); /* make all photos black and white */ 
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+
+.carousel-caption h3 {
+  color: #fff !important;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+
+/* Tour
+================================= */
+
+.bg-1 {
+  background: #2d2d30;
+  color: #bdbdbd;
+}
+.bg-1 h3 {
+  color: #fff;
+}
+.blurb {
+  font-style: italic;
+}
+
+.btn-track {
+  background-color: #00b4b3;
+  border-color: #00b4b3;
+  color: white;
+}
+
+.btn-track:hover {
+  background-color: #008585;
+  border-color: #008585;
+}
+
+.btn a{
+  color: white;
+  text-decoration: none;
+}
+
+.bandsintown-icon {
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.shows iframe {
+  background-color: white;
+  height: 183px;
+  width: 325px;
+}
+
+.shows a {
+  color: white;
+  border-bottom: white 1px solid; 
+  text-decoration: none;
+}
+
+.shows a:hover {
+  color: #DDD;
+  border-bottom: #DDD 1px solid;
+  text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  .shows iframe {
+    height: 281px;
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .shows iframe {
+    height: 550px;
+    width: 700px;
+  }
+}
+
+@media (min-width: 992px) {
+  .shows iframe {
+    height: 625px;
+    width: 850px;
+  }
+}
+
+/* Email List
+================================= */
+
+.indicates-required {
+  font-style: italic;
+}
+
+/* Footer
+================================= */
+
+footer {
+  background-color: rgb(71, 72, 75);
+  color: white;
+}
+
+footer .info-link {
+  color: white;
+  border-bottom: white 1px solid; 
+  text-decoration: none;
+}
+
+footer .info-link:hover {
+  color: #DDD;
+  border-bottom: #DDD 1px solid;
+  text-decoration: none;
+}
+
+footer .social-group a:nth-child(even) {
+  margin: 0 1.2rem;
+}
+
+/* Contact Page
+================================= */
+
+.contact {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.contact a {
+  color: #3f3f63;
+  text-decoration: none;
+  border-bottom: #3f3f63 1px solid;
+}
+
+.contact a:hover {
+  color: #696999; 
+  text-decoration: none;
+  border-bottom: #696999 1px solid;
+}
+
+/* Press Kit
+================================= */
+
+.presskit a {
+  color: #3f3f63;
+  text-decoration: none;
+  border-bottom: #3f3f63 1px solid;
+}
+
+.presskit a:hover {
+  color: #696999; 
+  text-decoration: none;
+  border-bottom: #696999 1px solid;
+}
+
+.presskit h5 {
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.presskit h6 {
+  padding-left: .5rem;
+}
+
+.presskit p {
+  padding-left: 1rem;
+}
+
+.presskit .social-group a {
+  border: 3px solid #2d2d30;
+}
