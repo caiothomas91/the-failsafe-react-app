@@ -124,12 +124,34 @@ h4 {
 /* Featured
 ================================= */
 
-.instagram {
+.youtube iframe {
   height: 200px;
 }
 
-.youtube iframe {
-  height: 200px;
+.carousel-control-prev,
+.carousel-control-next {
+  width: 1%;
+}
+
+.music .nav-link {
+  background-color: #2d2d30;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.music .nav-link:hover {
+  border-bottom-color: #2d2d30;
+}
+
+.music .nav-link.active {
+  color: #2d2d30;
+}
+
+.music .nav-link.active:hover {
+  color: #2d2d30;
+  border-bottom-color: white;
 }
 
 @media (min-width: 576px) {
@@ -228,26 +250,6 @@ h4 {
   }
 }
 
-/* Carousel
-================================= */
-
-.carousel-inner img {
-  -webkit-filter: grayscale(90%);
-  filter: grayscale(90%); /* make all photos black and white */ 
-  width: 100%; /* Set width to 100% */
-  margin: auto;
-}
-
-.carousel-caption h3 {
-  color: #fff !important;
-}
-
-@media (max-width: 600px) {
-  .carousel-caption {
-    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-  }
-}
-
 /* Tour
 ================================= */
 
@@ -287,7 +289,7 @@ h4 {
 .shows iframe {
   background-color: white;
   height: 183px;
-  width: 325px;
+  width: 324px;
 }
 
 .shows a {
@@ -311,14 +313,14 @@ h4 {
 
 @media (min-width: 768px) {
   .shows iframe {
-    height: 550px;
+    height: 390px;
     width: 700px;
   }
 }
 
 @media (min-width: 992px) {
   .shows iframe {
-    height: 625px;
+    height: 475px;
     width: 850px;
   }
 }

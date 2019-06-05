@@ -5,6 +5,7 @@ import { Navbar, Jumbotron } from 'react-bootstrap'
 import LogoWhite from './LogoWhite';
 import NavCollapse from './NavCollapse';
 import SocialLinks from './SocialLinks';
+import JumboLogo from './JumboLogo';
 
 const Header = () => {
     return (
@@ -16,14 +17,8 @@ const Header = () => {
             </Navbar>
             <Jumbotron fluid>
                 <SocialLinks />
-                
+                <JumboLogo />
             </Jumbotron>    
-            {/* <div className="jumbotron jumbotron-fluid">
-
-                <div className="container text-center pb-md-5">
-                    <img id="jumbo-logo" className="img-fluid" src="../img/logos/logo-black.svg" />
-                </div>
-            </div> */}
         </header>
     );
 }
