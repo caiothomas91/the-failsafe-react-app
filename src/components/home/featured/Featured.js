@@ -2,8 +2,8 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 
 //App components
-import Youtube from './Youtube';
-import Music from './Music';
+import Youtube from '../../shared/Youtube';
+import Music from '../../shared/Music';
 
 const Featured = () => (
     [

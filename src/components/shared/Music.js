@@ -2,7 +2,7 @@ import React from 'react';
 import { Tabs, Tab } from 'react-bootstrap';
 
 //data
-import { SpotifyLink, AppleMusicLink, SoundCloudTracks } from '../../../data/content';
+import { SpotifyLink, AppleMusicLink, SoundCloudTracks } from '../../data/content';
 
 const Music = () => (
     <Tabs defaultActiveKey="spotify" id="music" className="music">

@@ -4,7 +4,7 @@ import { Navbar, Jumbotron } from 'react-bootstrap'
 //App components
 import LogoWhite from './LogoWhite';
 import NavCollapse from './NavCollapse';
-import SocialLinks from './SocialLinks';
+import SocialLinks from '../shared/SocialLinks';
 import JumboLogo from './JumboLogo';
 
 const Header = () => {
@@ -16,7 +16,9 @@ const Header = () => {
                 <NavCollapse />
             </Navbar>
             <Jumbotron fluid>
-                <SocialLinks />
+                <section className="social-group upper-social d-none d-sm-flex pt-2 pr-2 justify-content-end">
+                    <SocialLinks />
+                </section>
                 <JumboLogo />
             </Jumbotron>    
         </header>

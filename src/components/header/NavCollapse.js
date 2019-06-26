@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, Dropdown } from 'react-bootstrap';
+import { HashLink as Link } from 'react-router-hash-link';
 
 //data
 import { MainSections, DropdownSections } from '../../data/sections';
@@ -16,7 +17,7 @@ const NavCollapse = () => (
                 <Dropdown.Toggle as={Nav.Link} aria-haspopup="true" aria-expanded="false">More</Dropdown.Toggle>
                 <Dropdown.Menu alignRight aria-labelledby="navbarDropdownMenuLink">
                     {DropdownSections.map( section => (
-                        <Dropdown.Item href={section.link}>{section.name}</Dropdown.Item>
+                        <Dropdown.Item as={Link} to={section.link}>{section.name}</Dropdown.Item>
                     ))}
                 </Dropdown.Menu>
             </Dropdown>

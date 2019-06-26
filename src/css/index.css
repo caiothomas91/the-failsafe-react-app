@@ -33,8 +33,17 @@ h4 {
   font-size: 12px;
 }
 
+.navbar-dark .navbar-nav .nav-link.active {
+  color: rgba(255, 255, 255, .5);
+}
+
 .navbar .dropdown-menu {
   text-transform: capitalize;
+}
+
+.navbar .dropdown-menu a:hover {
+  background-color: #2d2d30;
+  color: white;
 }
 
 /* Jumbotron
@@ -137,7 +146,9 @@ h4 {
   background-color: #2d2d30;
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: .5px;
+  font-size: 11px;
+  padding: .5rem .5rem;
   color: white;
 }
 
@@ -161,6 +172,11 @@ h4 {
 
   .instagram {
     height: 300px;
+  }
+  .music .nav-link {
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: .5rem 1rem;
   }
 }
 
@@ -215,7 +231,7 @@ h4 {
   background-image: url(../img/chad.jpg);
 }
 
-#bass-modal{
+#kieran-modal{
   background-image: url(../img/kieran.jpg);
 }
 
@@ -245,7 +261,6 @@ h4 {
 
 @media (min-width: 1200px) {
   #members{
-    height: 550px;
     max-width: 95%;
   }
 }
@@ -288,40 +303,38 @@ h4 {
 
 .shows iframe {
   background-color: white;
-  height: 183px;
-  width: 324px;
+  height: 192px;
+  width: 100%;
 }
 
 .shows a {
   color: white;
-  border-bottom: white 1px solid; 
-  text-decoration: none;
-}
-
-.shows a:hover {
-  color: #DDD;
-  border-bottom: #DDD 1px solid;
+  background-color: black;
+  border-color: #2d2d30;
   text-decoration: none;
 }
 
 @media (min-width: 576px) {
   .shows iframe {
-    height: 281px;
-    width: 500px;
+    height: 284px;
   }
 }
 
 @media (min-width: 768px) {
   .shows iframe {
-    height: 390px;
-    width: 700px;
+    height: 385px;
   }
 }
 
 @media (min-width: 992px) {
   .shows iframe {
-    height: 475px;
-    width: 850px;
+    height: 520px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .shows iframe {
+    height: 620px;
   }
 }
 
@@ -353,7 +366,13 @@ footer .info-link:hover {
 }
 
 footer .social-group a:nth-child(even) {
-  margin: 0 1.2rem;
+  margin: 0 .4rem;
+}
+
+@media (min-width: 576px) {
+  footer .social-group a:nth-child(even) {
+    margin: 0 1.2rem;
+  }
 }
 
 /* Contact Page
@@ -407,4 +426,14 @@ footer .social-group a:nth-child(even) {
 
 .presskit .social-group a {
   border: 3px solid #2d2d30;
+}
+
+.presskit .social-group a:nth-child(even) {
+  margin: 0 .1rem;
+}
+
+@media (min-width: 576px) {
+  .presskit .social-group a:nth-child(even) {
+    margin: 0 1.2rem;
+  }
 }

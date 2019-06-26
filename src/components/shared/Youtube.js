@@ -2,9 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
 //data
-import { YouTubeVideos } from '../../../data/content';
-
-let randomVideoIndex = Math.floor(Math.random() * YouTubeVideos.length);
+import { YouTubeVideos } from '../../data/content';
 
 const Youtube = () => (
     <div class="youtube mb-5">
@@ -22,7 +20,6 @@ const Youtube = () => (
                 </Carousel.Item>
             ))}
         </Carousel>
-
     </div>
 );
 
