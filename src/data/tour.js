@@ -4,45 +4,17 @@ export const BandsInTownLink = "https://www.bandsintown.com/a/168190";
 
 export const TourDates = [
     {
-        date: "June 28, 2019",
-        venue: "Hijynx",
-        city: "Fort Atkinson",
-        state: "WI",
-        eventLink: "https://www.facebook.com/events/1336706866467125/"
-    },
-    {
-        date: "July 27, 2019",
-        venue: "Lifers",
-        city: "Algona",
-        state: "IA",
-        eventLink: "https://www.facebook.com/events/389209935025151/"
-    },
-    {
-        date: "July 29, 2019",
-        venue: "Whiskey Junction",
-        city: "Minneapolis",
-        state: "MN",
-        eventLink: "https://www.facebook.com/events/1432740326901368/"
-    },
-    {
-        date: "August 2, 2019",
-        venue: "The Looney Bin",
-        city: "Bradley",
+        date: "December 7, 2019",
+        venue: "Whiskey's Roadhouse w/ On My Six",
+        city: "Rockford",
         state: "IL",
-        eventLink: "https://www.facebook.com/events/639435249801493/"
+        eventLink: "https://www.facebook.com/events/497183377791283/"
     },
     {
-        date: "August 3, 2019",
-        venue: "The Crucible",
-        city: "Madison",
-        state: "WI",
-        eventLink: "https://www.facebook.com/events/431229777649886/"
-    },
-    {
-        date: "August 16, 2019",
-        venue: "Hijynx",
-        city: "Fort Atkinson",
-        state: "WI",
-        eventLink: "https://www.facebook.com/events/367842573926300/"
-    },
+        date: "December 21, 2019",
+        venue: "The Dog House w/ EAON",
+        city: "Maplewood",
+        state: "MN",
+        eventLink: "https://www.facebook.com/thedoghousebarandgrill/"
+    }
 ];

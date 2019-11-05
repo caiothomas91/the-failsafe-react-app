@@ -2,7 +2,7 @@
 import JesseImage from '../img/jesse.jpg';
 import CaioImage from '../img/caio.jpg';
 import ChadImage from '../img/chad.jpg';
-import KieranImage from '../img/kieran.jpg';
+import BennoImage from '../img/benno.jpg';
 
 export const MemberBios = [
     {
@@ -42,13 +42,13 @@ export const MemberBios = [
         bioLinks: [['Four Chord Story', 'https://www.facebook.com/4chordstory/']]
     },
     {
-        firstName: "Kieran",
+        firstName: "Benno",
         lastName: "Bowers",
-        image: KieranImage,
+        image: BennoImage,
         instrument: "Bass/Backing Vocals",
         bio: 
         [
-            "Kieran Bowers is the newest member of The Failsafe. He has been a part of the Minneapolis music scene for over ten years, most notably as the bassist for local pop bands Color Tab and Lisell. Much of his inspiration comes from his father, a fellow musician."
+            "Benno Bowers is the newest member of The Failsafe. He has been a part of the Minneapolis music scene for over ten years, most notably as the bassist for local pop bands Color Tab and Lisell. Much of his inspiration comes from his father, a fellow musician."
         ],
         bioLinks: [['Lisell', 'https://www.facebook.com/lisellmusic/']]
     }

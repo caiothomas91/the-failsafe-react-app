@@ -49,7 +49,7 @@ h4 {
 /* Jumbotron
 ================================= */
 
-.jumbotron {
+.main-header {
   background: linear-gradient(#000, transparent 50%),
               linear-gradient(0deg, #fff, transparent),
               url(../img/fs-jumbo.jpg) no-repeat center 60px;
@@ -59,8 +59,8 @@ h4 {
 }
 
 #jumbo-logo {
-  max-width: 90%;
-  max-height: 80%;
+  max-width: 80%;
+  max-height: 72%;
   padding-top: 7rem;
   margin-bottom: -3rem;
 }
@@ -165,6 +165,51 @@ h4 {
   border-bottom-color: white;
 }
 
+.album {
+  background:
+    url(../img/erasingcolor.jpg) no-repeat center 0px;
+  background-size: cover;
+  color: white;
+  height: 350px;
+  width: 95%;
+  text-align: center;
+}
+
+.album-link {
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #2d2d30;
+  border-bottom: #2d2d30 1px solid; 
+  text-decoration: none;
+}
+
+.album-link:hover {
+  color: gray;
+  border-bottom: gray 1px solid; 
+  text-decoration: none;
+}
+
+footer .info-link:hover {
+  color: #DDD;
+  border-bottom: #DDD 1px solid;
+  text-decoration: none;
+}
+
+@media (min-width: 400px) {
+  .album {
+    height: 375px;
+    width: 85%;
+  }
+}
+
+@media (min-width: 475px) {
+  .album {
+    height: 450px;
+    width: 85%;
+  }
+}
+
 @media (min-width: 576px) {
   .youtube iframe {
     height: 300px;
@@ -178,6 +223,11 @@ h4 {
     font-size: 15px;
     padding: .5rem 1rem;
   }
+
+  .album {
+    height: 500px;
+    width: 95%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -188,6 +238,18 @@ h4 {
   .instagram {
     height: 500px;
   }
+
+  .album {
+    height: 600px;
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .album {
+    height: 650px;
+    width: 70%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -196,6 +258,11 @@ h4 {
   }
   .instagram {
     height: 700px;
+  }
+
+  .album {
+    height: 800px;
+    width: 70%;
   }
 }
 
@@ -216,7 +283,7 @@ h4 {
 
 .modal-header {
   background-size: cover;
-  height: 200px;
+  height: 275px;
 }
 
 #jesse-modal{
@@ -231,8 +298,8 @@ h4 {
   background-image: url(../img/chad.jpg);
 }
 
-#kieran-modal{
-  background-image: url(../img/kieran.jpg);
+#benno-modal{
+  background-image: url(../img/benno.jpg);
 }
 
 .modal-body,
@@ -255,7 +322,7 @@ h4 {
 
 @media (min-width: 768px) {
   .modal-header {
-    height: 300px;
+    height: 350px;
   }
 }
 
@@ -312,6 +379,12 @@ h4 {
   background-color: black;
   border-color: #2d2d30;
   text-decoration: none;
+}
+
+@media (min-width: 400px) {
+  .shows iframe {
+    height: 215px;
+  }
 }
 
 @media (min-width: 576px) {

@@ -8,6 +8,10 @@ export const MainSections = [
         link: "/#tour"
     },
     {
+        name: "Merch",
+        link: "https://thefailsafe.square.site"
+    },
+    {
         name: "Members",
         link: "/#members"
     },

@@ -34,7 +34,7 @@ const Music = () => (
                     title={track.title}
                     className="mb-3" 
                     width="100%" 
-                    height="166" 
+                    height="300" 
                     scrolling="no" 
                     frameborder="no" 
                     allow="autoplay" 

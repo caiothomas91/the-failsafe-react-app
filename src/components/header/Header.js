@@ -15,7 +15,7 @@ const Header = () => {
                 <Navbar.Toggle data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" />
                 <NavCollapse />
             </Navbar>
-            <Jumbotron fluid>
+            <Jumbotron fluid className="main-header">
                 <section className="social-group upper-social d-none d-sm-flex pt-2 pr-2 justify-content-end">
                     <SocialLinks />
                 </section>

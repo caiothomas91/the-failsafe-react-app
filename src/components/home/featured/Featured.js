@@ -4,14 +4,16 @@ import { Container } from 'react-bootstrap';
 //App components
 import Youtube from '../../shared/Youtube';
 import Music from '../../shared/Music';
+import Album from './Album';
 
 const Featured = () => (
     [
         <div id="featured" />,
         <Container as="div">
-            <section class="mb-5">
-                <h3 class="text-center mb-md-3 mb-xl-5">Featured</h3>
+            <section className="mb-5">
+                <h3 className="text-center mb-md-3 mb-xl-5">Featured</h3>
                 <Youtube />
+                <Album />
                 <Music />
             </section>
         </Container>
