@@ -15,6 +15,6 @@ export const TourDates = [
         venue: "The Dog House w/ EAON",
         city: "Maplewood",
         state: "MN",
-        eventLink: "https://www.facebook.com/thedoghousebarandgrill/"
+        eventLink: "https://www.facebook.com/events/561704954579486/"
     }
 ];
